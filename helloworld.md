@@ -61,7 +61,7 @@ printing()
     5
     True
 
-These different data types will be useful later on, but you can read more on the [data types][data-types] section.
+These different data types will be discussed in the [data types][data-types] section.
 
 <!-- Identifiers -->
 [bool-def]: https://github.com/melaniesifen/learnpython/definitions "A boolean expression evaluates to either True or False."
