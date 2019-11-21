@@ -1,4 +1,4 @@
-## Print
+## Print()
 
 In the [Hello World][hello-world-page] program, we introduced the print() statement. This command allows you to display content on the screen. Let's look at some examples:
 
