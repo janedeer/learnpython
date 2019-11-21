@@ -14,7 +14,6 @@ hello()
 ```
 **Output:**
 
-<br>
     Hello World!
 
 Here are the main components to look at:
@@ -56,7 +55,6 @@ printing()
 
 **Output:**
 
-<br>
     hello
     5
     True
