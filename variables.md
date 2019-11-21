@@ -27,9 +27,8 @@ There are a few rules about creating variables:
 - Variable names cannot be a **reserved** word in python.
     - A reserved word, or keyword, has a predefined meaning in the python language.
     - A few examples are "and", "or", "break", "else", and "True". Python has 33 keywords in total. To see them all, run this command in your terminal.
-    
-        $ python3
         ```
+        $ python3
         >>> from keyword import kwlist
         >>> kwlist
         ```
