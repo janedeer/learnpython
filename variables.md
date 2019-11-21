@@ -22,17 +22,17 @@ print(b)
     True
 
 There are a few rules about creating variables:
-- Variable names must start with a letter or underscore followed by any series of numbers, letters, or underscores.
+- Variable names must start with a letter or underscore, followed by any series of numbers, letters, or underscores.
 - Variable names cannot start with a number.
 - Variable names cannot be a **reserved** word in python.
     - A reserved word, or keyword, has a predefined meaning in the python language.
     - A few examples are "and", "or", "break", "else", and "True". Python has 33 keywords in total. To see them all, run this command in your terminal.
-    $ python3
-    >>> from keyword import kwlist
-    >>> kwlist
+    >>> $ python3
+    >>> $\gt\gt\gt$ from keyword import kwlist
+    >>> $\gt\gt\gt$ kwlist
 - Variables are case sensitive, so the variables x and X are different.
 
-When creating variables for a program, it's important to give the variables meaningful names. This is important not only for other readers of your program, but also for you so that you can easily reread and understand your program later on.
+When creating variables for a program, it's important to give the variables meaningful names. This is useful not only for the readers of your program, but also for you so that you can easily reread and understand your program later on.
 
 Compare this will the example given above:
 ```python
@@ -49,8 +49,7 @@ print(my_integer, my_float, my_float2, my_string, bool1, bool2)
 
     5 5.0 5.4 this is a string True False
 
-
-
+In this example, we can clearly see what each variable represents because of the name.
 
 <!-- Identifiers-->
 [int-def]: https://github.com/melaniesifen/learnpython/definitions "An integer or whole number."
