@@ -1,6 +1,6 @@
 ## Print
 
-In the [Hello World][hello-world-page] program, we introduced the print statment. This command allows you to display contents on the screen. Let's look at some examples:
+In the [Hello World][hello-world-page] program, we introduced the print() statement. This command allows you to display content on the screen. Let's look at some examples:
 
 ```python
 print("hello")
@@ -10,13 +10,6 @@ print(5)
 print(True)
 ```
 
-- Line 1 prints a string "hello"
-- Line 2 prints a string "5"
-- Line 3 prints a string "True"
-- Line 4 prints an [int][int-def] 5
-- Line 5 prints a boolean or [bool][bool-def] True
-These different data types will be discussed further in the [data types][data-types] section.
-
 **Output:**
 
     hello
@@ -25,32 +18,24 @@ These different data types will be discussed further in the [data types][data-ty
     5
     True
 
-The print() statement can print multiple objects on separate lines or on the same line separated by a space (by default) or some other character.
-Some examples:
+So what is the difference between the "5" and 5 and the "True" and True? In python, we represent different data types in this way. This will be discussed further in the [data types][data-types] section, but for now just know that a [string][defintions] is a sequence of characters inside of either single or double quotes: " " or ' ', an [int][definitions] is a whole number, and a boolean or [bool][definitions] is True or False.
+
+
+
+
+The print() statement can print multiple objects on separate lines.
 
 ```python
 print("this is a string.")
 print("this is another string on a separate line.")
-```
-Here we use two print statements to display these strings on separate lines.
-
-**Output:**
-    
-    this is a string.
-    this is another string on a separate line.
-
-We can achieve the same result by putting both of these strings into one print() statement, and separating them with a [newline character][newline-def] \n.
-
-```python
 print("this is a string.", "this is another string on a separate line.", sep = "\n")
 ```
+First, we use two print statements to display these strings on separate lines. Then we achieve the same result by putting both of these strings into one print() statement, and separating them with a [newline character][newline-def] \n using the sep = " " attribute.
 
-**Output:**
 
-    this is a string.
-    this is another string on a separate line.
 
-If we put these strings together in a print statement without the newline character, they will be printed on the same line separated by a space by default, or by another specified character using sep = " ".
+
+The print() statement can also print objects on the same line.
 
 ```python
 print("this is a string.", "this is another string on the same line.")
@@ -61,6 +46,9 @@ print("this is a string.", "this is another string separated by an asterisk.", s
 
     this is a string. this is another string on the same line.
     this is a string.*this is another string separated by an asterisk.
+
+
+
 
 Finally, you can end the print statement with a specifed character using end = " ". This will be more useful when using [loops][loops]
 
@@ -91,11 +79,12 @@ print("     hello  ")
     1 2 hello True
          hello  
 
-In the last print statement, the output is affected because the whitespace is inside of the string that is being printed, so the whitespace gets printed along with the letters.
+In the last print statement, the output includes whitespace because the spaces are inside of the string that is being printed.
 
 
 
 <!-- Identifiers -->
 [hello-world-page]: https://github.com/melaniesifen/learnpython/blob/master/helloworld.md
+[definitions]: https://github.com/melaniesifen/learnpython/blob/master/helloworld.md
+[loops]: https://github.com/melaniesifen/learnpython/blob/master/loops.md
 [newline-def]: https://github.com/melaniesifen/learnpython/blob/master/helloworld.md "\n starts a new line"
-[loops]: https://github.com/melaniesifen/learnpython/blob/master/helloworld.md
