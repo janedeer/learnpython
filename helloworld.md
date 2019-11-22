@@ -34,34 +34,6 @@ Here are the main components to look at:
     - Try running your program without this statement and see what happens - nothing! This is because you have created a function called hello, and defined what this function will do, but you have not yet told the computer to execute the function.
     
 
-Let's look at some more print statements.
-
-```python
-def printing():
-    print("hello")
-    print("5")
-    print("True")
-    print(5)
-    print(True)
-printing()
-```
-- Line 1 creates a function called "printing"
-- Line 2 prints a string "hello"
-- Line 3 prints a string "5"
-- Line 4 prints a string "True"
-- Line 5 prints an [int][int-def] 5
-- Line 6 prints a boolean or [bool][bool-def] True
-- Line 7 calls "printing"
-
-**Output:**
-
-    hello
-    5
-    True
-    5
-    True
-
-These different data types will be discussed in the [data types][data-types] section.
 
 <!-- Identifiers -->
 [bool-def]: https://github.com/melaniesifen/learnpython/definitions "A boolean expression evaluates to either True or False."
