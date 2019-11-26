@@ -18,7 +18,7 @@ hello()
 
 Here are the main components to look at:
 - **def** hello():
-    - The keyword "def" defines the function called "hello".
+    - The keyword "def" creates or defines a function called "hello".
     - Notice the (): after the word hello. This is the syntax to name the function.
 - **print()**
     - This statement tells the computer to display the content between the parantheses.
