@@ -27,11 +27,12 @@ Here are the main components to look at:
     - The double quotes indicate that the data type is a [string][string-def].
     - Alternatively, single quotes could have been used for the same result: 'Hello World!'.
     - Using single versus double quotes is a matter of preference, but it is important to stay consistent to avoid confusion or errors in your program.
+    - This is the content that will be displayed in the output.
 - **hello()** 
-    - This statement _calls_ the hello function.
-    - Typing the funciton name followed by () is the syntax to execute the function.
+    - This statement _calls_ or executes the hello function.
+    - Typing the funciton name followed by () is the syntax to call the function.
     - Notice that this line is _not_ indented - this indicates that the "hello" function is complete and that this command is not part of the function.
-    - Try running your program without this statement and see what happens - nothing! This is because you have created a function called hello, and defined what this function will do, but you have not yet told the computer to execute the function.
+    - Try running your program without the hello() statement at the end and see what happens - nothing! This is because you have created a function called hello, and defined that the function will print the statement "Hello World!", but you have not yet told the computer to execute the function. Hence, we need the last line to call the function.
     
 
 
