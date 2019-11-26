@@ -94,7 +94,7 @@ In the last print statement, the output includes whitespace because the spaces a
 
 
 <!-- Identifiers -->
-[data-types]: https://github.com/melaniesifen/learnpython/blob/master/helloworld.md
+[data-types]: https://github.com/melaniesifen/learnpython/blob/master/types.md
 [hello-world-page]: https://github.com/melaniesifen/learnpython/blob/master/helloworld.md
 [definitions]: https://github.com/melaniesifen/learnpython/blob/master/helloworld.md
 [loops]: https://github.com/melaniesifen/learnpython/blob/master/loops.md
