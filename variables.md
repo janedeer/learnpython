@@ -56,5 +56,5 @@ In this example, we can clearly see what each variable represents because of the
 <!-- Identifiers-->
 [int-def]: https://github.com/melaniesifen/learnpython/definitions "An integer or whole number."
 [float-def]: https://github.com/melaniesifen/learnpython/definitions "Real numbers represented with a decimal."
-[print-page]: https://github.com/melaniesifen/learnpython/print.md "print()"
+[print-page]: https://github.com/melaniesifen/learnpython/master/print.md "print()"
 [string-def]: https://github.com/melaniesifen/learnpython/definitions "An immutable data type consisting of a sequence of characters."
